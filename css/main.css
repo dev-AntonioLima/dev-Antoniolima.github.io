@@ -1,4 +1,23 @@
-:root {
+ :root {
     margin: 0px;
     gap: 0px;
+} 
+
+.header {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.header-logo img {
+    height: 100px;
+    width: 200px;
+}
+
+.header-menu {
+ flex-direction: row;
+}
+
