@@ -12,6 +12,14 @@
     align-items: center;
 }
 
+.header-logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0,81,160);
+    
+}
 .header-logo img {
     height: 100px;
     width: 200px;
