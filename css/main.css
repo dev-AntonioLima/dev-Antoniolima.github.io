@@ -36,3 +36,11 @@
     text-decoration: none;
 }
 
+
+.contato-formulario {
+    display: flex;
+    border: rgb(0,81,128) solid 5px;
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+}

@@ -1,0 +1,16 @@
+@media(max-width: 800px) {
+
+    .header {
+        flex-direction: column;
+    }
+
+    .header-logo img {
+        height: 80px;
+        width: 160px;
+    }
+
+    .header-logo {
+        font-size: 15px;
+    }
+
+}
