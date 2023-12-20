@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: rgb(0,81,128) 5px solid;
 }
 
 .header-logo {
@@ -26,6 +27,12 @@
 }
 
 .header-menu {
- flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.header-menu li {
+    text-decoration: none;
 }
 
