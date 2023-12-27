@@ -13,4 +13,10 @@
         font-size: 15px;
     }
 
+    .contato-formulario form {
+      
+        grid-template-columns: 1fr;
+    }
+    
+
 }

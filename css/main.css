@@ -44,7 +44,6 @@
     max-width: 1200px;
     padding: 40px 20px;
     gap: 20px;
-    grid-template-columns: 2fr;
 }
 
 .contato-formulario h1 {
@@ -54,11 +53,29 @@
 
 .contato-formulario form {
     display: grid;
-    text-align: left; 
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
 }
 
-.contato-formulario input {
-    border-radius: 5px;
+.contato-formulario input[type="text"],
+.contato-formulario input[type="number"],
+.contato-formulario input[type="email"],
+.contato-formulario textarea {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.contato-formulario input[type="text"]:focus,
+.contato-formulario input[type="email"],
+.contato-formulario textarea:focus {
+    outline: none;
+    border-color: blue;
+
 }
 
 .contato-formulario label {
