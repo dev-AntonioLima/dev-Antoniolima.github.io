@@ -2,12 +2,13 @@ footer {
     display: flex;
     width: 100%;
     position: absolute;
-    background: blue;
+    background: rgb(0, 79, 128);
     text-align: center;
     justify-content: center;
     font-size: 1.125rem;
     color: #ffffff;
     align-items: center;
+    flex-direction: row-reverse;
 }
 
 footer img {

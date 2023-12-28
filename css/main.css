@@ -4,7 +4,7 @@
     padding: 40px 20px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -44,12 +44,15 @@
 .options {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .options button {
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
+    width: 350px;
+    justify-content: center;
 }
 
 .contato-formulario {
