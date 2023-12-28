@@ -1,4 +1,9 @@
 
+
+body {
+    margin: 0px;
+}
+
 .header {
     max-width: 1200px;
     padding: 40px 20px;
@@ -6,6 +11,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #024c9728;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 .header-logo {
