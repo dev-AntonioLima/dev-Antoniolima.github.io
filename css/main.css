@@ -47,7 +47,9 @@
 }
 
 .options button {
-    gap: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .contato-formulario {
@@ -62,6 +64,7 @@
 }
 
 .contato-formulario form {
+    width: 250px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
