@@ -49,11 +49,6 @@
     text-align: center;
 }
 
-a {
-    margin-right: 5%;
-    margin-left: 5%;
-}
-
 
 .card-image img {
     grid-area: image;
