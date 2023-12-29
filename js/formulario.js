@@ -1,3 +1,3 @@
 function enviarFormulario() {
-    
+    document.forms();
 }
