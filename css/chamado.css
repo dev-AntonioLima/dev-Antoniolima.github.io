@@ -1,0 +1,43 @@
+.contato-formulario {
+    margin: 0px auto;
+    max-width: 800px;
+    padding: 40px 20px;
+}
+
+.contato-formulario h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.contato-formulario form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contato-formulario input[type="text"],
+.contato-formulario input[type="number"],
+.contato-formulario input[type="email"],
+.contato-formulario textarea {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.contato-formulario input[type="text"]:focus,
+.contato-formulario input[type="email"],
+.contato-formulario textarea:focus {
+    outline: none;
+    border-color: blue;
+
+}
+
+.contato-formulario label {
+    display: block;
+    font: 600 1rem/1.5 "Poppins", sans-serif;
+    margin-bottom: 4px;
+}
