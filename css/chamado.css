@@ -2,6 +2,7 @@
     margin: 0px auto;
     max-width: 800px;
     padding: 40px 20px;
+    background-color: aliceblue;
 }
 
 .contato-formulario h1 {
@@ -20,8 +21,8 @@
 .contato-formulario input[type="email"],
 .contato-formulario textarea {
     font: 400 1rem/1.5 "Roboto", sans-serif;
-    border: 1px solid black;
-    padding: 12px;
+    border: 1px solid #024c97;
+    padding: 10px;
     border-radius: 4px;
     width: 100%;
     box-sizing: border-box;
