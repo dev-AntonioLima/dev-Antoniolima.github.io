@@ -21,16 +21,15 @@
                 <img src="./img/fen-logo.png">
                 <span>Serviço de Atendimento ao Usuário</span>
             </div>
-            <nav>
-            
-                    <ul class="header-menu">
-                       <li><a href="softwares.html"><i class="fa fa-cog" aria-hidden="true"></i> PROGRAMAS</a></li>
-                       <li><a href="drivers.html"><i class="fa fa-print" aria-hidden="true"></i> DRIVERS</a></li>
-   
-   
-                   </ul>
-               
-            </nav>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <li class="fas fa-arrow-right"><a href="./softwares.html">Programas</a></li>
+                <li class="fas fa-arrow-right"><a href="./drivers.html">Drivers</a></li>
+            </ul>
+            </section>
         </header>
 
 
@@ -51,7 +50,7 @@
 
 
 
-             
+
 
                 </div>
 
@@ -67,20 +66,20 @@
                         <input type="text" id="departamento" name="departamento" required>
                     </div>
 
-                  
+
                 </div>
 
                 <div class="form3">
-                <div>
-                    <label for="mensagem">Solicitação</label>
-                    <textarea rows="7" placeholder="O que você precisa ?" required></textarea>
-                </div>
+                    <div>
+                        <label for="mensagem">Solicitação</label>
+                        <textarea rows="7" placeholder="O que você precisa ?" required></textarea>
+                    </div>
                 </div>
                 <br>
 
-                
-            <button type="submit" onclick="enviarFormulario()" class="botao">Enviar</button>
-               
+
+                <button type="submit" onclick="enviarFormulario()" class="botao">Enviar</button>
+
             </form>
 
 
