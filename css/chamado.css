@@ -42,3 +42,24 @@
     font: 600 1rem/1.5 "Poppins", sans-serif;
     margin-bottom: 4px;
 }
+
+.form4 {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.contato-formulario .botao {
+    width: 128px;
+    height: 64px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    border-color: #024c97;
+    background-color: #024c97;
+    color: #ffffff;
+}
+
+.contato-formulario .botao:hover {
+    background-color: #5d99e7;
+}
