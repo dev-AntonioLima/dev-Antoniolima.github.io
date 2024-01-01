@@ -6,16 +6,16 @@
 
     .header-logo {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .header-logo img {
-        padding: 10px;
-        height: 80px;
-        width: 160px;
+        align-self: center;
     }
 
     .header-logo {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .contato-formulario form {
