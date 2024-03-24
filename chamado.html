@@ -39,7 +39,7 @@
 
         <section class="contato-formulario" aria-label="formulario">
             <h1>FORMULÁRIO DE SOLICITAÇÃO</h1>
-            <form class="form" action="./chamado.html">
+            <form class="form">
                 <div class="form1">
                     <div>
                         <label for="nome">Nome</label>
@@ -62,7 +62,7 @@
 
                     <div>
                         <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email" required>
+                        <input onmousedown="validacaoEmail(f1.email)"  maxlength="60"  type="email" id="email" name="email" required>
                     </div>
 
                     <div>
@@ -105,5 +105,15 @@
 </body>
 
 <script src="./js/formulario.js"></script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "YOUR_PUBLIC_KEY",
+      });
+   })();
+</script>
 
 </html>
