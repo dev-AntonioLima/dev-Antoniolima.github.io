@@ -1,4 +1,3 @@
-import "https://smtpjs.com/v3/smtp.js";
 // VALIDAÇÃO CAMPO NOME //
 var inputNome = document.querySelector("#nome");
 nome.addEventListener("keypress", function(e) {
@@ -38,17 +37,4 @@ function enviarFormulario() {
   console.log(departamento);
   console.log(mensagem);
 
-    Email.send({
-        Host: "smtp.gmail.com",
-        Username: "atendimentoservico7@gmail.com",
-        Password: "Seguro@2046",
-        To: 'antoniol@eng.uerj.br',
-        From: "atendimentoservico7@gmail.com",
-        Subject: "SAU",
-        Body: nome,
-    })
-        .then(function (message) {
-            alert("Mensagem enviada com sucesso")
-        });
 }
-
