@@ -6,38 +6,39 @@ body {
 }
 
 .header {
+    display: flex;
     padding: 10px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #024c97;;
     margin-bottom: 20px;
 }
 
 .header-logo {
-    display: flex;
-    align-items: center;
     font-weight: bold;
     text-transform: uppercase;
     color: #ffffff;
-    font: 600 1rem/1.5 "Poppins", sans-serif;
-    
-    
+    font: 600 1rem/1.5 "Poppins", sans-serif;  
 }
+
 .header-logo img {
-    height: 128px;
-    width: 128px;
+    height: 100px;
+    width: 350px;
 }
+
+
 
 .header h2 {
   margin-right: 10px;
 }
 
-.header span {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
-  font-style: italic;
+.header-title span {
+  font-family: 'arial';
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .header-menu {
