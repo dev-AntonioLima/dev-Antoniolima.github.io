@@ -43,12 +43,14 @@
                 <div class="form1">
                     <div>
                         <label for="nome">Nome</label>
-                        <input type="text" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" id="nome" name="nome"  required>
+                        <input type="text" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" id="nome" name="nome"
+                            required>
                     </div>
 
                     <div>
                         <label for="telefone">Telefone</label>
-                        <input maxlength="15" onkeyup="handlePhone(event)" type="text" id="telefone" name="telefone" required>
+                        <input maxlength="15" onkeyup="handlePhone(event)" type="text" id="telefone" name="telefone"
+                            required>
                     </div>
 
 
@@ -62,7 +64,8 @@
 
                     <div>
                         <label for="email">E-mail</label>
-                        <input onmousedown="validacaoEmail(f1.email)"  maxlength="60"  type="email" id="email" name="email" required>
+                        <input maxlength="60" type="email" id="email"
+                            name="email" required>
                     </div>
 
                     <div>
@@ -76,7 +79,7 @@
                 <div class="form3">
                     <div>
                         <label for="mensagem">Solicitação</label>
-                        <textarea rows="7" placeholder="O que você precisa ?" required></textarea>
+                        <textarea id= "mensagem" rows="7" placeholder="O que você precisa ?" required></textarea>
                     </div>
 
                 </div>
@@ -105,15 +108,14 @@
 </body>
 
 <script src="./js/formulario.js"></script>
-<script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
 </script>
 <script type="text/javascript">
-   (function(){
-      emailjs.init({
-        publicKey: "YOUR_PUBLIC_KEY",
-      });
-   })();
+    (function () {
+        emailjs.init({
+            publicKey: "YOUR_PUBLIC_KEY",
+        });
+    })();
 </script>
 
 </html>
