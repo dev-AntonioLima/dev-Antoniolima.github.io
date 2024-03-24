@@ -23,8 +23,8 @@ body {
 }
 
 .header-logo img {
-    height: 100px;
-    width: 350px;
+    height: 100%;
+    width: 50%;
 }
 
 
