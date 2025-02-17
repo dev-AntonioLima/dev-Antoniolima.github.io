@@ -3,15 +3,17 @@
 body {
     margin: 0px;
     background-color: #087df11c;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
     display: flex;
+    flex-direction: column;
     padding: 10px;
     margin: 0 auto;
-    justify-content: space-between;
     align-items: center;
-    background-color: #024c97;;
+    justify-content: center;
+    background-color: #024c97;
     margin-bottom: 20px;
 }
 
@@ -19,24 +21,25 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     color: #ffffff;
-    font: 600 1rem/1.5 "Poppins", sans-serif;  
+    font: 600 1rem/1.5 "Poppins", sans-serif;
+    align-content: center;
 }
 
 .header-logo img {
-    height: 100%;
-    width: 50%;
+    height: 10vh;
+    width: 35vh;
 }
 
-
-
-.header h2 {
-  margin-right: 10px;
+.header-title {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #18191a6b;
 }
 
 .header-title span {
-  font-family: 'arial';
+  font-family:Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
   color: #ffffff;
 }
@@ -56,7 +59,7 @@ body {
 
 .header-menu li a {
     color: #ffffff;
-    background-color: rgb(0,81,160);
+    background-color: #337ab7;
     padding: 5px;
     border-radius: 5px;
     text-decoration: none;

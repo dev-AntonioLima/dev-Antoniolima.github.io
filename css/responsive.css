@@ -19,12 +19,21 @@
     }
 
     .contato-formulario form {
-      
+       
         grid-template-columns: 1fr;
+    }
+
+    .contato-formulario {
+        margin: 10px 10px;
     }
 
     .cards {
         flex-direction: column;
+    }
+
+    .form {
+       padding-left: 10px;
+       padding-right: 10px;
     }
     
 
