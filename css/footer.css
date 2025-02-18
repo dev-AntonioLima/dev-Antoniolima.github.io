@@ -16,3 +16,10 @@ footer img {
     width: 100px;
 }
 
+@media(max-width: 800px) {
+    footer {
+        font-size: 1.025rem;
+        border-radius: 5px;
+    }
+}
+
