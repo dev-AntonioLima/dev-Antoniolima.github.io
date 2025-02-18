@@ -30,8 +30,13 @@
 
 
         <section class="contato-formulario" aria-label="formulario">
+
+            <div class="imagem-form">
+                <img src="img/it.png" alt="it">
+            </div>
             <h1>Abrir Chamado</h1>
             <p>Por favor, preencha o formulário abaixo para abrir um novo chamado.</p>
+
             <form class="form" action="contato.php" name="form_contato" method="post">
                 <div class="form1">
                     <div>
@@ -58,10 +63,9 @@
 
                     <div>
                         <label for="email">E-mail</label>
-                        <input maxlength="60" type="email" id="email"
-                            name="email" required>
+                        <input maxlength="60" type="email" id="email" name="email" required>
                     </div>
-<br>
+                    <br>
                     <div>
                         <label for="departamento">Departamento</label>
                         <input type="text" id="departamento" name="departamento" required>
@@ -73,7 +77,7 @@
                 <div class="form3">
                     <div>
                         <label for="mensagem">Solicitação</label>
-                        <textarea id="mensagem" name="mensagem" rows="5" cols="10" required></textarea>
+                        <textarea id="mensagem" name="mensagem" rows="3" cols="10" required></textarea>
                     </div>
 
                 </div>
